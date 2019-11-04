@@ -1,0 +1,98 @@
+/*
+	Author: Denise Shirley
+	File: styles.css
+	Date: 10.28.19
+	Project: My Schedule
+	
+*/
+
+body{
+  font-family: 'Lobster Two', cursive;
+  margin: 0px 0px 0px 0px;
+  background-color: #ffff4d
+}
+
+header{
+	background-color: #ffff4d;
+	text-align: center;
+}
+img {
+   width: 100%;
+   margin: 5px 0px 10px 5px;
+   border-radius: 8px;
+}
+
+h1 {
+	text-align: center;
+}
+
+
+
+
+.topnav {
+  background-color: black;
+  overflow: hidden;
+}
+
+
+.topnav a {
+  float: left;
+  color: pink;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: white;
+  color: black;
+}
+
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.img {
+   width: 15%;
+   border-radius: 8px;
+   margin-left: auto;
+   margin-right: auto; 
+   margin-top: auto;  
+}
+
+th {
+  background-color: black;
+  color: white;
+}
+
+table, th, tr, th, td, Schedule {
+	border-style: solid;
+	border: grove black;
+    border-radius: 8px;
+    margin-left: 5%;
+    margin-right: 5%; 
+    margin-top: auto; 	
+}
+table {
+	text-align: center;
+	border: grove black;
+}
+h2 {
+	text-align: center;
+}
+h4 {
+	text-align: center;
+}
+
+
+
+	
+
+
+footer {
+	margin: 20em 0em 0em 0em;
+	text-align: center;
+}
