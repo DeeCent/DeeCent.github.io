@@ -1,0 +1,135 @@
+
+/*
+	Author: Denise Shirley
+	File: styles.css
+	Date: 11.20.19
+	Project: totos training tutorials
+	
+*/
+body{
+  font-family: 'Lobster Two', cursive;
+  margin: 0px 0px 0px 0px;
+  background-color: pink;
+  color: #b300b3
+}
+header{
+	background-color: purple;
+}
+header h1{
+	padding: 5px 5px 70px 35px;
+	margin-bottom: 0px;
+	font-size: 5em;
+	text-align: center;
+}
+/*Nav Styles*/
+.navbar {
+  overflow: hidden;
+  background-color: #493D26;
+}
+.navbar a {
+	float: right;
+	font-size: 1em;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+.dropdown {
+	float: right;
+	overflow: hidden;
+}
+.dropdown .dropbtn {
+	cursor: pointer;
+	font-size: 1em;
+	border: none;
+	outline: none;
+	color: white;
+	padding: 14px 16px;
+	background-color: inherit;
+	font-family: inherit;
+	margin: 0;
+}
+.navbar a:hover, .dropdown:hover, .dropbtn, .dropbtn:focus {
+	background-color: pink;
+}
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: white;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content a:hover {
+  background-color: white;
+}
+.show{
+	display: block;
+}
+/* video and audio styles*/
+audio, video {
+	box-shadow: rgb(51, 51, 51) 8px 8px 15px;
+	display: block;
+	margin: 20px auto;
+	width: 55%; 
+}
+iframe {
+	box-shadow: rgb(51, 51, 51) 8px 8px 15px;
+	display: block;
+	margin: 20px auto;
+	width: 55%;
+	
+}
+
+
+
+h2 {
+	font-size: 2em;
+	text-align: center;
+}
+
+aside {
+	display: block;
+}
+
+
+::cue(.main) {
+	text-shadow: black 3px 3px 0px;
+	font: inherit;
+}
+::cue1 {
+	background: rgba(0, 0, 0, 0.3);
+	color: pink;
+	font: 1.3 'Lobster Two', cursive;
+}
+
+
+
+/*media styles*/
+@media screen and (max-width: 768px) {
+	header h1 {
+		font-size: 3em;
+	}
+}
+
+
+
+/*footer*/
+.footer {
+  position: center;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
