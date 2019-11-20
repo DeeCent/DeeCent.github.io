@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<!-- 
+		Author: Denise Shirley
+		File: book.html
+		Date: 11.06.19
+		Project: Book A Room
+	-->
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Lobster+Two&display=swap" rel="stylesheet">
+
+    <title>Bon Voyage</title>
+	<script src="js/modernizr.custom.40753.js"></script>
+	<script src="js/respond.min.js"></script>
+	<link rel="stylesheet" href="stylesheets/reset.css" media="all" />
+	<link rel="stylesheet" href="stylesheets/styles.css" />
+    <link rel="stylesheet" href="stylesheets/print.css" media="print" />
+  </head>
+  <body>
+	<header>
+	  <div class="navbar">
+		  <div class="dropdown">
+		    <button class="dropbtn">Travel Sites
+			<i class="fa fa-caret-down"></i>
+			</button>
+			<div class="dropdown-content">
+			   <a href="https://www.lonelyplanet.com/puerto-rico">Puerto Rico</a>
+			   <a href="https://travel.usnews.com/Costa_Rica/">Costa Rica</a>
+			   <a href="https://travel.usnews.com/Cancun_Mexico/">Cancun</a>
+			</div>
+		  
+		  <a href="../index.html">Portfolio</a>
+		  <a href="book.html">Booking Page</a>
+	      <a href="about_us.html">About Us</a>
+		  <a href="packing_tips.html">Packing Tips</a>
+		  <a href="index.html">Home</a>	
+		</div>
+	  </div>
+	  
+		
+		<div class="navbarBurger">
+		  <i class="fas fa-bars fa-2x" onclick="myXFunction()"></i>
+		  <div class="navbarBurger-content" id="navbarBurger">
+		   	<a href="index.html">Home</a>
+			<a href="packing_tips.html">Packing Tips</a>
+			<a href="about_us.html">About Us</a>
+			<a href="book.html">Booking Page</a>
+			<a href="../index.html">Portfolio</a>
+			<a href="https://travel.usnews.com/Cancun_Mexico">Cancun</a>
+			<a href="https://travel.usnews.com/Costa_Rica">Costa Rica</a>
+			<a href="https://www.lonelyplanet.com/puerto-rico">Puerto Rico</a>
+		   </div>
+		</div> 
+	</header>
+	<h1>Contact Us</h1>
+  	  <form action="results.html" method="get">
+	    <fieldset class="contactInfo">
+		  <legend>Contact Information</legend>
+		
+		  <label for="First_and_Last_Name">First and Last Name*</label>
+		  <input name="custName" id="First_and_Last_Name" type="text" placeholder="First and Last name"/>
+		
+		  <label for="Email_Address">Email address*</label>
+		  <input name="custEmailaddress" id="Email_Address" type="text" placeholder="Email address"/>
+		
+		  <label for="Phone_Number">Phone Number*</label>
+		  <input name="custPhoneNumber" id="Phone_Number" type="tel" placeholder="Phone Number"/>
+	     </fieldset>
+		   <p>Required fields are marked by an asterisk (*)</p>
+		
+		
+		
+	      
+		  <h3>Reservation Information</h3>
+		  <fieldset class="optGroup">
+          <legend>What vacation destination would you like to visit?</legend>
+		 
+		  <input type="radio" name="Vacation_Destenation" value="Puerto_Rico"> Puerto Rico<br>
+		  <input type="radio" name="Vacation_Destenation" value="Costa_Rica"> Costa Rica<br>
+		  <input type="radio" name="VacationS_Destenation" value="Cancun_Mexico"> Cancun MexicoS 
+		  
+		 </fieldset>
+		
+		
+        
+		  
+		   <fieldset class="checkInDates">
+		    <legend>What date would you like to check in?</legend>
+		    
+			<label for="monthSpin">Please enter your check-in-month.</label>
+	        <input name="month_of_Check_in" id="monthSpin" type="number"
+		           value="1" step="1" min="01" max="12"/>
+				 
+		    <label for="daySpin">Please enter your check-in-day.</label>
+	        <input name="day_of_check_in" id="daySpin" type="number"
+		           value="1" step="1" min="01" max="31"/>
+		  
+		    <label for="yearSpin">Please enter your check-in-year.</label>
+	        <input name="year_of_Check_in" id="yearSpin" type="number"
+		           value="1" step="1" min="01" max="99"/>
+		  
+		    <label for="nightsSpin">How many nights will you be staying?</label>
+	        <input name="how_many_nights" id="nightsSpin" type="number"
+		           value="1" step="1" min="01" max="99"/>
+		   </fieldset>
+		  
+		  
+		 		  
+		
+		<h3>Let us know if you are comming for a special occation or event!</h3>
+				
+		<fieldset class="comments">
+		  <legend>Additional Comments or request</legend>				
+        	
+		  <textarea>Enter comments here...</textarea>
+		
+		</fieldset>
+		
+		
+		
+		 <fieldset class="submitbutton">
+            <input type="submit" id="submit" value="Submit">
+         </fieldset>
+		 
+		
+	 </form>
+			  
+	  <div class="footer">
+	   
+		 <p>&copy; Bon voyage 2019 &#x1F4E7;<a href="mailto:ds0918645@otc.edu"> ds0918645@otc.edu</a> 
+		 <a href="tel:417-555-5555"> &#128241; 417.555.5555</a></p>
+	   
+      </div>
+  
+  
+  </body>
+</html>
