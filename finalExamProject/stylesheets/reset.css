@@ -1,0 +1,53 @@
+/*
+developer: Denise Shirley
+Date: 12/11/19
+Project: Final Exam Railroad museum
+*/
+
+article, aside, footer, header, main, nav, section {
+	display: block;
+}
+
+
+
+address, article, aside, body, div, figcaption, footer, 
+h1, header, html, img, li, main, nav, nav a, ol, p, section, ul {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	background: transparent;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	line-height: 1.2;
+}
+
+ul, ol {
+	list-style: none;
+}
+
+nav ul {
+	list-style: none;
+	list-style-image: none;
+	
+}
+
+nav a {
+	text-decoration: none;
+}
+
+/*footer*/
+
+footer {
+	
+	color: #990073
+}
+
+footer a {
+	text-decoration: none;
+	color: #990073
+}
